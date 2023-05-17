@@ -247,7 +247,7 @@ export class NgUploaderService {
       };
 
       xhr.open(method, url, true);
-      xhr.withCredentials = event.withCredentials ? true : false;
+      xhr.withCredentials = event.withCredentials;
 
       try {
         const uploadFile = <BlobFile>file.nativeFile;

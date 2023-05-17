@@ -1,4 +1,4 @@
-import { NgUploaderService, humanizeBytes } from './ngx-uploader.class';
+import { NgUploaderService, humanizeBytes } from 'ngx-uploader';
 
 describe('NgUploaderService constructor', () => {
   it('without parameters should return allowedContentTypes = [\'*\']', () => {
