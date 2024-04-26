@@ -373,12 +373,12 @@ class NgFileDropDirective {
             i0.ɵɵlistener("drop", function NgFileDropDirective_drop_HostBindingHandler($event) { return ctx.onDrop($event); })("dragover", function NgFileDropDirective_dragover_HostBindingHandler($event) { return ctx.onDragOver($event); })("dragleave", function NgFileDropDirective_dragleave_HostBindingHandler($event) { return ctx.onDragLeave($event); });
         } }, inputs: { options: "options", uploadInput: "uploadInput" }, outputs: { uploadOutput: "uploadOutput" } });
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgFileDropDirective, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgFileDropDirective, [{
         type: Directive,
         args: [{
                 selector: '[ngFileDrop]'
             }]
-    }], function () { return [{ type: i0.ElementRef }]; }, { options: [{
+    }], () => [{ type: i0.ElementRef }], { options: [{
             type: Input
         }], uploadInput: [{
             type: Input
@@ -437,12 +437,12 @@ class NgFileSelectDirective {
     static ɵfac = function NgFileSelectDirective_Factory(t) { return new (t || NgFileSelectDirective)(i0.ɵɵdirectiveInject(i0.ElementRef)); };
     static ɵdir = /*@__PURE__*/ i0.ɵɵdefineDirective({ type: NgFileSelectDirective, selectors: [["", "ngFileSelect", ""]], inputs: { options: "options", uploadInput: "uploadInput" }, outputs: { uploadOutput: "uploadOutput" } });
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgFileSelectDirective, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgFileSelectDirective, [{
         type: Directive,
         args: [{
                 selector: '[ngFileSelect]'
             }]
-    }], function () { return [{ type: i0.ElementRef }]; }, { options: [{
+    }], () => [{ type: i0.ElementRef }], { options: [{
             type: Input
         }], uploadInput: [{
             type: Input
@@ -455,7 +455,7 @@ class NgxUploaderModule {
     static ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxUploaderModule });
     static ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({});
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxUploaderModule, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxUploaderModule, [{
         type: NgModule,
         args: [{
                 declarations: [NgFileDropDirective, NgFileSelectDirective],

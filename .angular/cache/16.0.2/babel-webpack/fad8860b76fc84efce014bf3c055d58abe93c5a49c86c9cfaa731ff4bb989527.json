@@ -1,1 +1,0 @@
-{"ast":null,"code":"/*\n * Public API Surface of ngx-uploader\n */\nexport * from './lib/interfaces';\nexport * from './lib/ng-file-drop.directive';\nexport * from './lib/ng-file-select.directive';\nexport * from './lib/ngx-uploader.class';\nexport * from './lib/ngx-uploader.module';","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
