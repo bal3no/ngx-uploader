@@ -1,6 +1,6 @@
 {
   "name": "ngx-uploader",
-  "version": "18.0.0-bal3no",
+  "version": "19.0.0-bal3no",
   "homepage": "https://ngx-uploader.com",
   "repository": {
     "type": "git",
@@ -14,11 +14,11 @@
     "url": "https://github.com/bleenco/ngx-uploader/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^18.0.0",
-    "@angular/core": "^18.0.0"
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
   },
   "dependencies": {
-    "tslib": "^2.5.0"
+    "tslib": "^2.8.0"
   },
   "module": "fesm2022/ngx-uploader.mjs",
   "typings": "index.d.ts",
@@ -28,8 +28,6 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/ngx-uploader.mjs",
-      "esm": "./esm2022/ngx-uploader.mjs",
       "default": "./fesm2022/ngx-uploader.mjs"
     }
   },

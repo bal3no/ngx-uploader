@@ -368,15 +368,16 @@ class NgFileDropDirective {
         const event = { type: 'dragOut' };
         this.uploadOutput.emit(event);
     }
-    static ɵfac = function NgFileDropDirective_Factory(t) { return new (t || NgFileDropDirective)(i0.ɵɵdirectiveInject(i0.ElementRef)); };
+    static ɵfac = function NgFileDropDirective_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || NgFileDropDirective)(i0.ɵɵdirectiveInject(i0.ElementRef)); };
     static ɵdir = /*@__PURE__*/ i0.ɵɵdefineDirective({ type: NgFileDropDirective, selectors: [["", "ngFileDrop", ""]], hostBindings: function NgFileDropDirective_HostBindings(rf, ctx) { if (rf & 1) {
             i0.ɵɵlistener("drop", function NgFileDropDirective_drop_HostBindingHandler($event) { return ctx.onDrop($event); })("dragover", function NgFileDropDirective_dragover_HostBindingHandler($event) { return ctx.onDragOver($event); })("dragleave", function NgFileDropDirective_dragleave_HostBindingHandler($event) { return ctx.onDragLeave($event); });
-        } }, inputs: { options: "options", uploadInput: "uploadInput" }, outputs: { uploadOutput: "uploadOutput" } });
+        } }, inputs: { options: "options", uploadInput: "uploadInput" }, outputs: { uploadOutput: "uploadOutput" }, standalone: false });
 }
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgFileDropDirective, [{
         type: Directive,
         args: [{
-                selector: '[ngFileDrop]'
+                selector: '[ngFileDrop]',
+                standalone: false
             }]
     }], () => [{ type: i0.ElementRef }], { options: [{
             type: Input
@@ -434,13 +435,14 @@ class NgFileSelectDirective {
             this.upload.handleFiles(this.el.files);
         }
     };
-    static ɵfac = function NgFileSelectDirective_Factory(t) { return new (t || NgFileSelectDirective)(i0.ɵɵdirectiveInject(i0.ElementRef)); };
-    static ɵdir = /*@__PURE__*/ i0.ɵɵdefineDirective({ type: NgFileSelectDirective, selectors: [["", "ngFileSelect", ""]], inputs: { options: "options", uploadInput: "uploadInput" }, outputs: { uploadOutput: "uploadOutput" } });
+    static ɵfac = function NgFileSelectDirective_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || NgFileSelectDirective)(i0.ɵɵdirectiveInject(i0.ElementRef)); };
+    static ɵdir = /*@__PURE__*/ i0.ɵɵdefineDirective({ type: NgFileSelectDirective, selectors: [["", "ngFileSelect", ""]], inputs: { options: "options", uploadInput: "uploadInput" }, outputs: { uploadOutput: "uploadOutput" }, standalone: false });
 }
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgFileSelectDirective, [{
         type: Directive,
         args: [{
-                selector: '[ngFileSelect]'
+                selector: '[ngFileSelect]',
+                standalone: false
             }]
     }], () => [{ type: i0.ElementRef }], { options: [{
             type: Input
@@ -451,7 +453,7 @@ class NgFileSelectDirective {
         }] }); })();
 
 class NgxUploaderModule {
-    static ɵfac = function NgxUploaderModule_Factory(t) { return new (t || NgxUploaderModule)(); };
+    static ɵfac = function NgxUploaderModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || NgxUploaderModule)(); };
     static ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxUploaderModule });
     static ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({});
 }

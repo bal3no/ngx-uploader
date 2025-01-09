@@ -4,7 +4,8 @@ import { NgUploaderService } from './ngx-uploader.class';
 import { Subscription } from 'rxjs';
 
 @Directive({
-  selector: '[ngFileDrop]'
+  selector: '[ngFileDrop]',
+  standalone: false
 })
 export class NgFileDropDirective implements OnInit, OnDestroy {
   @Input() options: UploaderOptions;
